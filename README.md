@@ -1,3 +1,9 @@
+## Fork Notice
+
+This is a fork of the meteor package `dburles:google-maps`. It removes the dependency to `templating` and `underscore`, and therefore `blaze` and `jquery`. The entire code has also been modernized for better readability.
+
+To use it, simply run `meteor add epotek:google-maps`.
+
 Meteor Google Maps
 ==================
 
