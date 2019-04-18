@@ -1,6 +1,3 @@
-import { Meteor } from 'meteor/meteor';
-import { ReactiveVar } from 'meteor/reactive-var';
-
 const supportedTypes = ['Map', 'StreetViewPanorama'];
 
 const once = (func) => {
@@ -19,7 +16,7 @@ GoogleMaps = {
   load: once((opts) => {
     const options = Object.assign({}, { v: '3.exp' }, opts);
     const params = Object.keys(options)
-      .forEach((key) => {
+      .map((key) => {
         const value = options[key];
         return `${key}=${value}`;
       })
