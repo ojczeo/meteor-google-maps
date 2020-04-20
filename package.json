@@ -1,0 +1,24 @@
+{
+  "name": "meteor-google-maps",
+  "version": "1.0.0",
+  "description": "Meteor Google Maps ==================",
+  "main": "google-maps-tests.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-Potek/meteor-google-maps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-Potek/meteor-google-maps/issues"
+  },
+  "homepage": "https://github.com/e-Potek/meteor-google-maps#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
